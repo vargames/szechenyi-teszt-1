@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "DBK"
+  },
+  "text": {
+    "more": "Móricz Zsigmond kapcsolati hálóját az értelmiségi pályatársakkal folytatott levelezés alapján állítottuk össze, melyben szerepel író, költő, festő, szobrász, zeneszerző, műhímző, irodalom- és zenetörténész, monográfus, folklorista, szerkesztő, újságíró, kritikus, műfordító, kiadó, színházigazgató, rendezvényszervező, színész, tanár, református lelkész, teológus, országgyűlési képviselő, ügyvéd. A vizualizáció célja, hogy a pályakezdés tizenhárom évét egyetlen pillanatba sűrítse. A grafikus ábra három, erősödő narancs színű árnyalattal mutatja meg Móricz és kortársai levelezésének gyakoriságát. 520 kézirat alapján 136 levelezőpartner állítja fókuszba az írót.",
+    "intro": "Teszt Széchényi a Decathlonban.",
+    "title": "Teszt"
+  },
+  "legend": {
+    "edgeLabel": "Kapcsolat",
+    "colorLabel": "címzett típusa",
+    "nodeLabel": "Címzett"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "címzett típus",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
